@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+body{
+background-color:#F8F8FF;
+font:16px/1.5 "Taviraj";
+}
+
+nav ul{
+  font:25px/1.5 "Poiret One";
+  list-style-type: none;
+  margin: 20px;
+  padding: 40px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #4682B4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+a:default{
+  color:#FF1493;
+}
+a:visited{
+  color:#FF69B4;
+}
+
+a:hover{
+  color:#800080;
+}
+
+#container {
+  max-width:900px;
+  margin: auto;
+  min-width: 500px;
+  cursor:crosshair;
+}
+
+h2{
+  border-bottom:5px dashed #222;
+}
+
+
+#skills1{
+  float:right;
+  padding-top: 50px;
+}
+
+#volunteerexperience1{
+  float:left;
+  padding-top:50px;
+
+}
